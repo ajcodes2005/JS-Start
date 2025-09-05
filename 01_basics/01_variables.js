@@ -4,6 +4,8 @@ var accountPassword = "Ajay123@"
 accountCity = "Ranchi"
 let accountState;
 
+/* prefer not to use var 
+because of issue in block scope and functional scope */
 
 // accountId = 2
 console.log(accountId);
