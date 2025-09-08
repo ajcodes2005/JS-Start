@@ -58,7 +58,7 @@ console.log ( typeof ("41" - 33)); */
 
 // We will do multiplication now with number and string
 
-
+/*
 console.log (5*5);
 console.log (typeof (5*5));
 
@@ -72,16 +72,132 @@ console.log ("13" * "17");
 console.log (typeof ("13" * "17"));
 
 console.log ("-21" * "-17");
-console.log (typeof ("-21" * "-17"));
+console.log (typeof ("-21" * "-17")); 
+*/
 
 // NOTE: Multiplication of number and number , number and string , string and string work same like integers.
 // and typeof of multiplication of number and  number , number and string and string and string give number type.
 
 // Now we wil do divison in number and string 
+
+/* 
 console.log ( 65/19 );
 console.log (typeof 65/19);
 console.log (75/7.5);
 console.log (typeof 75/7.5);
+*/
+
+// NOTE: Divison operation works same like integer. and typeof always give number type.
+
+// Below we will learn about operation in boolean.
+
+ /* 
+console.log ( 7 + true);
+console.log (typeof ( 7 + true ));
+console.log ( true + false);
+console.log (typeof ( true + false ));
+console.log ( true + true );
+console.log ( false + false );
+*/
+
+/*
+let x = 17;
+console.log(typeof x); 
+
+x = "Irrational No.";
+console.log(typeof x);
+
+x = "true";
+console.log(typeof x);
+
+x = false;
+console.log(typeof x);
+*/
+
+
+// From Here We Will Start Learning Datatype Conversion:
+// Converting any value to number()
+
+/*
+let str = "257";
+let num = Number(str);
+console.log(num);
+console.log(typeof num);
+
+let numb = 798;
+let stri = String(numb);
+console.log(stri);
+console.log(typeof stri);
+
+let age = 19;
+let userAgeString = String(age);
+console.log(userAgeString);
+console.log(typeof userAgeString);
+
+let userName = ("909");
+let digit = String(userName);
+console.log(digit);
+console.log(typeof digit);
+*/
+
+// NOTE: Above We've done conversion from number to string and string to number.
+
+/*
+let invalid = ("Heyyy");
+let word = Number(invalid);
+console.log(word);
+console.log(typeof word);
+*/
+
+/*
+let bool = Number(false);
+console.log(bool);
+console.log(typeof bool);
+*/
+
+/*
+let userBlocked = (true);
+let userDead = Number(userBlocked);
+console.log(userDead);
+console.log(typeof userDead);
+*/
+
+/*
+let naturalNumberStart = (1);
+let numberToBoolean = Boolean(naturalNumberStart);
+console.log(numberToBoolean);
+*/
+
+/*
+let naturalNumberBegin = (0);
+let numberToBoolean = Boolean(naturalNumberBegin);
+console.log(numberToBoolean);
+*/
+
+// Above We've done conversion of value like String, Boolean to Number()
+
+let str = "3.14159";
+let int = parseInt(str);
+console.log(int);
+
+let rationalNumber = "1.5";
+let integer = parseInt(rationalNumber);
+console.log(integer);
+
+let userId = "1170934";
+let number = parseInt(userId);
+console.log(number);
+
+let userIsBot = ("true")
+let one = (parseInt(userIsBot));
+console.log(one);
+console.log(typeof one);
+
+
+
+
+
+
 
 
 
