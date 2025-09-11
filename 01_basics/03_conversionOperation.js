@@ -363,6 +363,7 @@ console.log(typeof arr2);
 //note: we've done conversion of string to array.
 
 //from here we'll do some practise of real world examples.
+/*
 let userInput = "50.75";
 let price = parseFloat(userInput);
 let tax = price * 0.1 ;
@@ -371,7 +372,41 @@ console.log(tax);
 let score = 95;
 let message = "Your score is:" + String(score);
 console.log(message);
+*/
 
+//From here lecture of teacher.
+
+let score = "Hitesh";
+
+//console.log(score);
+//console.log(typeof score);
+
+/*
+let valueInNumber = "33";
+console.log(valueInNumber);
+console.log(typeof (valueInNumber));
+*/
+
+let secondValue = Number(score);
+//console.log(typeof secondValue);
+//console.log(Number (secondValue));
+
+//NOTES : "33" => 33
+// "33abc" => NaN
+// true => 1 ; false => 0
+
+let isLoggedIn = "ajay";
+
+let booleanIsLoggedIn = Boolean(isLoggedIn);
+//console.log(booleanIsLoggedIn);
+
+//NOTE: 1 => true ; 0 => false
+// "" => false ; "Ajay" => true
+
+let number = 963;
+let stringNumber = String(number);
+console.log(stringNumber);
+console.log(typeof stringNumber);
 
 
 
