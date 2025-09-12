@@ -33,5 +33,34 @@ let xvx = "2010";
 //console.log(+(xvx));
 
 let largest4digit = "9999";
-console.log(Number("9999"));
-console.log(isNan Number(("9999")));
+//console.log(Number("9999"));
+//console.log(isNaN(Number("9999")));
+
+let pqr = "cat";
+//console.log(isNaN (Number("cat")));
+
+let ___ = "";
+//console.log(Number (___));
+
+let concatanation = "33" + 3;
+//console.log(concatanation);
+
+let q1 = "42";
+//console.log (Number(q1));
+//console.log(parseInt(q1));
+//console.log(+(q1));
+
+let q2 = "42.5";
+//console.log(Number(q2));
+//console.log(parseInt(q2));
+//console.log(+(q2));
+
+let str1 = "hello123";
+console.log(Number(str1));
+console.log(parseInt(str1));
+
+let strA = "ABC";
+console.log(Number(strA));
+console.log(isNaN (Number("strA")));
+console.log("invalid input!")
+
