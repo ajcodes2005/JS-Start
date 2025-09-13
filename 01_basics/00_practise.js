@@ -56,11 +56,33 @@ let q2 = "42.5";
 //console.log(+(q2));
 
 let str1 = "hello123";
-console.log(Number(str1));
-console.log(parseInt(str1));
+//console.log(Number(str1));
+//console.log(parseInt(str1));
 
 let strA = "ABC";
-console.log(Number(strA));
-console.log(isNaN (Number("strA")));
-console.log("invalid input!")
+//console.log(Number(strA));
+//console.log(isNaN (Number("strA")));
+//console.log("invalid input!")
+
+let converttoNumberA = "3.14";
+//console.log(parseFloat(converttoNumber));
+//console.log(typeof (3.14));
+
+let converttoNumberB = "xyz";
+//console.log(parseFloat(converttoNumber));
+
+let converttoNumberC = "100px";
+//console.log(parseFloat(converttoNumber));
+
+let converttoNumberD = " ";
+//console.log(parseFloat(converttoNumberD));
+
+let userAge = "25 years";
+console.log(parseInt(userAge));
+
+let userAgeB = "twenty five";
+//console.log(parseInt (userAgeB));
+//const wordToNumbers = require('words-to-numbers');
+//let numberAge = wordToNumbers.wordToNumbers(userAgeB);
+//NOTE; here i am doing mistakes. I will solve again.
 
