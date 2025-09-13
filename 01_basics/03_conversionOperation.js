@@ -405,8 +405,59 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let number = 963;
 let stringNumber = String(number);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
+
+let randomstr= "369xxx21";
+//console.log(parseInt(randomstr));
+//console.log(typeof(parseInt(randomstr)));
+
+let randomstr2 = "xvx1.414";
+//console.log(parseFloat(randomstr2));
+
+// Lecture No. 07 : ************* Operation ************* 
+
+let value = 2;
+let negValue = -value;
+//console.log(negValue);
+
+//console.log(7+7);
+//console.log(7-7);
+//console.log(7*7);
+//console.log(7**7);
+//console.log(2/3);
+//console.log(2%3);
+//console.log(12/5);
+
+
+let strA = "heyy";
+let strB = " Ajay";
+let strC = strA + strB;
+//console.log(strC);
+
+//console.log("2" + 2 + 1);
+//console.log("1" + 2 + 2);
+//console.log(3 + 2 + "5");
+
+console.log(true);
+console.log(+true);
+
+let num1 , num2 , num3
+num1 = num2 = num3 = 2+2;
+// Above type of writing code is completely trash. Don't write during making projects.
+
+let gameCounter = 100;
+++gameCounter
+console.log(gameCounter);
+
+let S = 47;
+ ++S;
+console.log(S);
+
+let T = 49;
+T++;
+console.log(T);
+
 
 
 
