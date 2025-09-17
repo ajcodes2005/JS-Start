@@ -98,4 +98,12 @@ let obj2 = obj1;
 obj2.value=200;
 //console.log(obj1.value);
 
+let greeting = "Good Evening" ;
+let userName = 'Shekhar' ;
+let message = `Hello ${userName}` ;
+//console.log(message)
+//console.log(userName.length)
+//console.log(message.length)
 
+console.log(message.charAt(1));
+console.log(greeting[4]);
