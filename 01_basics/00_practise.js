@@ -78,11 +78,24 @@ let converttoNumberD = " ";
 //console.log(parseFloat(converttoNumberD));
 
 let userAge = "25 years";
-console.log(parseInt(userAge));
+//console.log(parseInt(userAge));
 
 let userAgeB = "twenty five";
 //console.log(parseInt (userAgeB));
 //const wordToNumbers = require('words-to-numbers');
 //let numberAge = wordToNumbers.wordToNumbers(userAgeB);
 //NOTE; here i am doing mistakes. I will solve again.
+
+// stack and heap memory
+let num1 = 100;
+let num2 = num1;
+num2 = 200;
+//console.log(num1)
+//console.log(num2)
+
+let obj1 = { value:100 };
+let obj2 = obj1;
+obj2.value=200;
+//console.log(obj1.value);
+
 

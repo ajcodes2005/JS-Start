@@ -43,3 +43,25 @@ myFunction = function(){
     console.log("hello Human!")
 }
 console.log(myFunction);
+
+//+++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Non-Primitive)
+let myYoutubeName = "hiteshchaudharydotcom";
+let anotherName = myYoutubeName;
+anotherName = "chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "ajayxvx@gmail.com",
+    upi: "ajay@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "ajay@spacex.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
