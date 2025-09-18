@@ -105,5 +105,54 @@ let message = `Hello ${userName}` ;
 //console.log(userName.length)
 //console.log(message.length)
 
-console.log(message.charAt(1));
-console.log(greeting[4]);
+//console.log(message.charAt(1));
+//console.log(greeting[4]);
+//console.log(userName.length);
+//console.log(message.length);
+
+let userId = '19xvajay';
+//console.log(userId.charAt(7))
+//console.log(userId.charAt(0))
+
+let ABC = "prime number";
+let LMN = "irrational number";
+//console.log(ABC + LMN)
+
+let variable1 = 'x';
+let variable2 = 'y';
+//console.log( variable1 + variable2);
+
+let oddNumber = "17";
+let evenNumber = "2";
+//console.log(oddNumber + evenNumber)
+//console.log(oddNumber.concat(evenNumber))
+
+const statement = "I am A Noob!";
+//console.log(statement.indexOf("!"))
+//console.log(statement.startsWith("am"))
+//console.log(statement.includes("Noob!"))
+//console.log(statement.endsWith("Noob!"))
+
+let statement2 = "I love working hard!"
+//console.log(statement2.slice(1,2))
+//console.log(statement2.slice(-5))
+
+let random = "      WE Ball!      ";
+//console.log(random.trim())
+//console.log(random.trimEnd());
+
+let mistake = "ooohh No mistake mistake!";
+//console.log(mistake.replace("mistake", "right"))
+//console.log(mistake.replaceAll("mistake", "perfect"))
+
+let planets = "Earth,Mars,Venus";
+console.log(planets.split(","))
+console.log(planets.split(""))
+
+let brothers = "Uday,Ajay,Ranjan";
+let unity = brothers.split(",")
+console.log(brothers.split("',"))
+console.log(unity.join("-"))
+
+
+
