@@ -146,13 +146,21 @@ let mistake = "ooohh No mistake mistake!";
 //console.log(mistake.replaceAll("mistake", "perfect"))
 
 let planets = "Earth,Mars,Venus";
-console.log(planets.split(","))
-console.log(planets.split(""))
+//console.log(planets.split(","))
+//console.log(planets.split(""))
 
 let brothers = "Uday,Ajay,Ranjan";
 let unity = brothers.split(",")
-console.log(brothers.split("',"))
-console.log(unity.join("-"))
+//console.log(brothers.split("',"))
+//console.log(unity.join("-"))
+
+let kid = 5;
+let age = ` rohit is ${5} year older than than his
+brother. his mama is ${5*4} year old.` ;
+console.log(age);
+
+let greet = "She said \"heyy\" " ;
+console.log(greet)
 
 
 
