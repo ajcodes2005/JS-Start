@@ -154,13 +154,53 @@ let unity = brothers.split(",")
 //console.log(brothers.split("',"))
 //console.log(unity.join("-"))
 
-let kid = 5;
+ /* let kid = 5;
 let age = ` rohit is ${5} year older than than his
 brother. his mama is ${5*4} year old.` ;
-console.log(age);
+console.log(age); */
 
-let greet = "She said \"heyy\" " ;
+ /* let greet = "She said \"heyy\" " ;
 console.log(greet)
+console.log(typeof greet) */
+
+/*
+let customerAge = 18
+console.log(customerAge)
+console.log(typeof customerAge)
+
+customerAge = "25"
+console.log(customerAge)
+console.log(typeof customerAge) */
+
+/* let y = 17
+console.log(y)
+console.log(typeof y)
+
+
+y = "Seventeen"
+console.log(y)
+console.log(typeof y)
+
+y = false
+console.log(y)
+console.log(typeof y) */
+
+// above one is example of dynamic typing i.e. without assigning variable type again and again we're changing types of the same variable.
+
+/* let positiveInteger = 9
+let integerString = "19"
+let result = positiveInteger + integerString
+console.log(result) */
+
+/* function multiply(x,y) {
+return(x*y)
+}
+multiply(2,3)
+multiply("Hi",3)
+console.log(multiply(2,3)) */
+// console.log(multiply("Hi",3)) Grok's Mistake
+
+let value = 42
 
 
 
