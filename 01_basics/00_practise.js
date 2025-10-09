@@ -200,7 +200,87 @@ multiply("Hi",3)
 console.log(multiply(2,3)) */
 // console.log(multiply("Hi",3)) Grok's Mistake
 
-let value = 42
+let sem = 1
+//console.log(sem)
+//console.log(typeof sem)
+let myDebt = -1000
+//console.log(myDebt)
+//console.log(typeof myDebt)
+let myAge = 18.95
+let myBrotherAge = 12.83
+//console.log(myAge)
+//console.log(typeof myAge)
+//console.log(myBrotherAge)
+//console.log(typeof myBrotherAge)
+let keyboardNum = 20/104
+let keyboardAlpha = 26/104
+//console.log(keyboardNum)
+//console.log(keyboardAlpha)
+//console.log(typeof keyboardNum)
+//console.log(typeof keyboardAlpha)
+
+// let irrationalNum = √(2) 
+// above line is wrong because of syntax. correct way to write irrational number is Math.sqrt(2)
+// console.log(irrationalNum)
+
+let irrationalNum = Math.sqrt(2)
+//console.log(irrationalNum)
+//console.log(typeof irrationalNum)
+
+let irrationalNum2 = Math.sqrt(3)
+//console.log(irrationalNum2)
+//console.log(typeof irrationalNum2)
+
+let powerNum = Math.pow(2,3)
+console.log(powerNum)
+console.log(typeof powerNum)
+let powerNum2 = Math.pow(5,4)
+console.log(powerNum2)
+console.log(typeof powerNum)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
