@@ -232,20 +232,49 @@ let irrationalNum2 = Math.sqrt(3)
 //console.log(typeof irrationalNum2)
 
 let powerNum = Math.pow(2,3)
-console.log(powerNum)
-console.log(typeof powerNum)
+//console.log(powerNum)
+//console.log(typeof powerNum)
 let powerNum2 = Math.pow(5,4)
-console.log(powerNum2)
-console.log(typeof powerNum)
+//console.log(powerNum2)
+//console.log(typeof powerNum)
+let powerNum3 = Math.pow(2,-3)
+//console.log(powerNum3)
+let powerNum4 = Math.pow(-7,4)
+//console.log(powerNum4)
 
+let cubeRoot = Math.cbrt(27)
+//console.log(cubeRoot)
+let cubeRoot2nd = Math.cbrt(2.7)
+//console.log(cubeRoot2nd)
+let cubeRoot3rd = Math.cbrt(64)
+//console.log(cubeRoot3rd)
+let magicNum = Math.PI
+//console.log(magicNum)
+let absoluteNum = Math.abs(-7)
+//console.log(absoluteNum)
+let absoluteNum2 = Math.abs(66)
+//console.log(absoluteNum2)
+let absoluteNum3 = Math.abs(0)
+//console.log(absoluteNum3)
+let roundNum = Math.round(99.99)
+//console.log(roundNum)
+let roundNum2 = Math.round(49.5)
+//console.log(roundNum2)
 
+let customerId = "Anshu77"
+console.log(customerId)
+console.log(typeof customerId)
 
+let firstName = "Elon"
+let lastName = "Musk"
+let fullName = `${firstName} ${lastName}`
+console.log(fullName)
+console.log(typeof fullName)
 
-
-
-
-
-
+let proLang1 = "Java"
+let proLang2 = "Script"
+let Language = `${proLang1} ${proLang2}`
+console.log(Language)
 
 
 
