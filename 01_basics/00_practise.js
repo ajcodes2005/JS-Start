@@ -298,10 +298,28 @@ let strIII = "CPU"
 //console.log(strIII.toLowerCase())
 let isActive = true
 let isLegal = false
-console.log(isActive)
-console.log(typeof isActive)
-
-
+//console.log(isActive)
+//console.log(typeof isActive)
+let truthyValue  = Boolean(5)
+//console.log(truthyValue)
+let truthyValue1 = Boolean([])
+//console.log(truthyValue1)
+let truthyValue2 = Boolean({})
+//console.log(truthyValue2)
+let truthyValue3 = Boolean("Dopamine")
+//console.log(truthyValue3)
+let falsyValue = Boolean(0)
+//console.log(falsyValue)
+let falsyValue1 = Boolean(-0)
+//console.log(falsyValue1)
+let falsyValue2 = Boolean(NaN)
+//console.log(falsyValue2)
+let falsyValue3 = Boolean(null)
+//console.log(falsyValue3)
+let x = 10
+let y = 17
+console.log(x>y)
+console.log(y>x)
 
 
 
