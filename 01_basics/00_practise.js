@@ -262,19 +262,45 @@ let roundNum2 = Math.round(49.5)
 //console.log(roundNum2)
 
 let customerId = "Anshu77"
-console.log(customerId)
-console.log(typeof customerId)
+//console.log(customerId)
+//console.log(typeof customerId)
 
 let firstName = "Elon"
 let lastName = "Musk"
 let fullName = `${firstName} ${lastName}`
-console.log(fullName)
-console.log(typeof fullName)
+//console.log(fullName)
+//console.log(typeof fullName)
 
 let proLang1 = "Java"
 let proLang2 = "Script"
 let Language = `${proLang1} ${proLang2}`
-console.log(Language)
+//console.log(Language)
+
+let type1 = `Jezer Crater
+Occupy Mars
+Elon Musk 
+NASA`
+//console.log(type1)
+//console.log(typeof type1)
+//console.log(type1.length)
+let strA1 = "Earth"
+//console.log(strA1.length)
+let strA2 = "Planet Earth"
+//console.log(strA2.length)
+let strI = "Electricity"
+//console.log(strI[0])
+//console.log(strI[6])
+//console.log(strI.charAt(6))
+//console.log(strI.at(-11))
+let strII = "Computer"
+//console.log(strII.toUpperCase())
+let strIII = "CPU"
+//console.log(strIII.toLowerCase())
+let isActive = true
+let isLegal = false
+console.log(isActive)
+console.log(typeof isActive)
+
 
 
 
