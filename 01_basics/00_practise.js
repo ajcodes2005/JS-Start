@@ -318,10 +318,51 @@ let falsyValue3 = Boolean(null)
 //console.log(falsyValue3)
 let x = 10
 let y = 17
-console.log(x>y)
-console.log(y>x)
-
-
+//console.log(x>y)
+//console.log(y>x)
+let numberNot = "Five" * 5
+//console.log(numberNot)
+let magic = 3.14/0
+//console.log(magic)
+//console.log(typeof magic)
+let bigNumber = 141431490876312332n
+//console.log(bigNumber)
+//console.log(typeof bigNumber)
+let anotherUserId 
+//console.log(anotherUserId)
+//console.log(typeof anotherUserId)
+let game 
+//console.log(game)
+//console.log(typeof game)
+let buyNumber = null;
+//console.log(buyNumber)
+//console.log(typeof buyNumber)
+let A = 18 ; 
+//console.log(A)
+let AA = 18
+//console.log(AA)
+let name1 = "Ajay"
+let age = 18.8
+let college = "sem1"
+let isAvailable = true
+let nothing = null
+let love 
+let favBigNum = 82354377777772006n
+let uniqueId = Symbol('id')
+console.log(name1)
+console.log(typeof name1)
+console.log(age)
+console.log(typeof age)
+console.log(college)
+console.log(typeof college)
+console.log(isAvailable)
+console.log(typeof isAvailable)
+console.log(nothing)
+console.log(typeof nothing)
+console.log(love)
+console.log(typeof love)
+console.log(favBigNum)
+console.log(typeof favBigNum)
 
 
 
