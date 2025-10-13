@@ -341,6 +341,8 @@ let A = 18 ;
 //console.log(A)
 let AA = 18
 //console.log(AA)
+
+/*
 let name1 = "Ajay"
 let age = 18.8
 let college = "sem1"
@@ -363,8 +365,34 @@ console.log(love)
 console.log(typeof love)
 console.log(favBigNum)
 console.log(typeof favBigNum)
+*/
+/*
+let house = {furniture: "table" , color:"blue"}
+house.furniture="chair"
+house.color="White"
+console.log(house.color)
+console.log(house.furniture)
+console.log(house)
+console.log(typeof house)
+*/
 
+let strX = "Namaste"
+let strY = strX
+//console.log(strX)
+//console.log(strY)
+let arr1 = [1,2,3];
+let arr2 = arr1
+//console.log(arr2)
+//console.log(typeof arr2)
+arr1.push(4)
+//console.log(arr2)
 
+let machines = ["Calculator", "Computer", "Camera"]
+console.log(machines)
+console.log(typeof machines)
+let equipment = machines
+equipment.push("Rocket")
+console.log(equipment)
 
 
 
