@@ -388,11 +388,44 @@ arr1.push(4)
 //console.log(arr2)
 
 let machines = ["Calculator", "Computer", "Camera"]
-console.log(machines)
-console.log(typeof machines)
+//console.log(machines)
+//console.log(typeof machines)
 let equipment = machines
-equipment.push("Rocket")
-console.log(equipment)
+//equipment.push("Rocket")
+//console.log(equipment)
+let myLuckyNumber = 17
+let yourLuckyNumber = myLuckyNumber
+yourLuckyNumber = 19
+console.log(yourLuckyNumber)
+console.log(myLuckyNumber)
+//Object Datatype
+/* let man = {
+firstName : "Ajay",
+lastName : "Yadav",
+university : "NSU",
+semester : 1,
+isStudent : true,
+timeOnEarth : 18.8,
+isEmployed : false
+}
+console.log(man)
+console.log(typeof man)
+console.log(man.university)
+console.log(typeof man.isStudent) */
+
+let Z = [("Natural Number") , ("Negative Number") , ("Zero")]
+//console.log(Z)
+//console.log(typeof Z)
+let purchaseNumber = null
+//console.log(typeof purchaseNumber)
+let Array1 = ["Clouds" , "Mountains", "Forests"]
+console.log(Array1)
+console.log(typeof Array1)
+Array1.push("Animals")
+console.log(Array1)
+let Array2 = ("Lightning" , "Electricity", "Sunlight" , "Magnet")
+console.log(Array2)
+
 
 
 
