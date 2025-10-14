@@ -423,8 +423,21 @@ console.log(Array1)
 console.log(typeof Array1)
 Array1.push("Animals")
 console.log(Array1)
-let Array2 = ("Lightning" , "Electricity", "Sunlight" , "Magnet")
+let number  = new Array(-4 , -5, 9, 0);
+console.log(number)
+let Array2 = ["Lightning" , "Electricity", "Sunlight", "Magnet"]
 console.log(Array2)
+Array2.pop("Lightning")
+console.log(Array2)
+
+function wave(Shikha) {
+return "Hello" + Shikha + "!"
+}
+console.log(wave("Shikha"))
+
+function male(Shekhar) {
+    return "Hello" + 
+}
 
 
 
