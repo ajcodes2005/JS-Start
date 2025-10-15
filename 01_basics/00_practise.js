@@ -396,8 +396,8 @@ let equipment = machines
 let myLuckyNumber = 17
 let yourLuckyNumber = myLuckyNumber
 yourLuckyNumber = 19
-console.log(yourLuckyNumber)
-console.log(myLuckyNumber)
+//console.log(yourLuckyNumber)
+//console.log(myLuckyNumber)
 //Object Datatype
 /* let man = {
 firstName : "Ajay",
@@ -419,25 +419,60 @@ let Z = [("Natural Number") , ("Negative Number") , ("Zero")]
 let purchaseNumber = null
 //console.log(typeof purchaseNumber)
 let Array1 = ["Clouds" , "Mountains", "Forests"]
-console.log(Array1)
-console.log(typeof Array1)
+//console.log(Array1)
+//console.log(typeof Array1)
 Array1.push("Animals")
-console.log(Array1)
+//console.log(Array1)
 let number  = new Array(-4 , -5, 9, 0);
-console.log(number)
+//console.log(number)
 let Array2 = ["Lightning" , "Electricity", "Sunlight", "Magnet"]
-console.log(Array2)
+//console.log(Array2)
 Array2.pop("Lightning")
-console.log(Array2)
+//console.log(Array2)
 
 function wave(Shikha) {
 return "Hello" + Shikha + "!"
 }
 console.log(wave("Shikha"))
-
-function male(Shekhar) {
-    return "Hello" + 
+function roadster(SuperCar) {
+    return "Bikes " + SuperCar  + " Vroom Vroom!"
 }
+console.log(roadster("SuperCar"))
+function greet() {
+    console.log("Hello Devi!")
+}
+greet();
+/*
+function add(m, n) {
+    return m + n;
+}
+let result = add(17, 7);
+console.log(add(17,7))
+//A lot of learnings is present here.
+*/
+function Intro(doctor , brain) {
+console.log("I ", "am ", "a ",brain, doctor )
+}
+let person = "Chandan"
+console.log(`Hello, ${person}!`)
+
+function naming(brand , model) {
+console.log(brand, "is" , "my", "laptop" , "brand" ,"and" , "model", "is", model) 
+}
+naming("Acer", "A315-59")
+function matica(subject , meaningless) {
+console.log(subject, "is", "the", "reason", "behind", "all" , "the", "mystery", "of", "our","universe" , 
+    "Mathematics" , "gives" , meaningless , "to", "life"
+ )
+}
+matica("Mathematics", "Meaning" )
+
+function product(x, y) {
+return(x*y)
+}
+let answer = product(5,7)
+console.log(answer)
+
 
 
 
