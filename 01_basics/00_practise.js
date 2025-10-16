@@ -433,13 +433,13 @@ Array2.pop("Lightning")
 function wave(Shikha) {
 return "Hello" + Shikha + "!"
 }
-console.log(wave("Shikha"))
+//console.log(wave("Shikha"))
 function roadster(SuperCar) {
     return "Bikes " + SuperCar  + " Vroom Vroom!"
 }
-console.log(roadster("SuperCar"))
+//console.log(roadster("SuperCar"))
 function greet() {
-    console.log("Hello Devi!")
+   // console.log("Hello Devi!")
 }
 greet();
 /*
@@ -451,19 +451,19 @@ console.log(add(17,7))
 //A lot of learnings is present here.
 */
 function Intro(doctor , brain) {
-console.log("I ", "am ", "a ",brain, doctor )
+//console.log("I ", "am ", "a ",brain, doctor )
 }
 let person = "Chandan"
-console.log(`Hello, ${person}!`)
+//console.log(`Hello, ${person}!`)
 
 function naming(brand , model) {
-console.log(brand, "is" , "my", "laptop" , "brand" ,"and" , "model", "is", model) 
+//console.log(brand, "is" , "my", "laptop" , "brand" ,"and" , "model", "is", model) 
 }
 naming("Acer", "A315-59")
 function matica(subject , meaningless) {
-console.log(subject, "is", "the", "reason", "behind", "all" , "the", "mystery", "of", "our","universe" , 
+/*console.log(subject, "is", "the", "reason", "behind", "all" , "the", "mystery", "of", "our","universe" , 
     "Mathematics" , "gives" , meaningless , "to", "life"
- )
+ )*/
 }
 matica("Mathematics", "Meaning" )
 
@@ -471,8 +471,16 @@ function product(x, y) {
 return(x*y)
 }
 let answer = product(5,7)
-console.log(answer)
+//console.log(answer)
 
+let now = new Date();
+console.log(now)
+let birthday = new Date("2006-10-19")
+console.log(birthday)
+let newyear = new Date(2026, 0, 1)
+console.log(newyear)
+let arrivalYear = new Date(2006, 9, 19)
+console.log(arrivalYear)
 
 
 
